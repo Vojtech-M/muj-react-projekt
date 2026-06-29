@@ -104,9 +104,9 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#bluesky-icon"></use>
+                  <use href="https://vojtech-m.github.io/"></use>
                 </svg>
-                Bluesky
+                Zpět na stránku
               </a>
             </li>
           </ul>
