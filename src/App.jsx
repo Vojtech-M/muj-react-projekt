@@ -98,13 +98,13 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="hhttps://vojtech-m.github.io/" target="_blank">
+              <a href="https://vojtech-m.github.io" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="https://vojtech-m.github.io/"></use>
+                  <use href="https://vojtech-m.github.io"></use>
                 </svg>
                 Zpět na stránku
               </a>
