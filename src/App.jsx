@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import mapLogo from './assets/map.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
@@ -13,13 +13,10 @@ function App() {
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={mapLogo} className="vite" alt="Map logo" />
         </div>
         <div>
-          <h1>Moje React aplikace</h1>
-          <p>
-            Editr <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+          <h1>Moje Mapy</h1>
         </div>
 
         <button
@@ -38,19 +35,26 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>Mapy a gastro</h2>
+          <p>Nevíte kam na výlet nebo jídlo ? mrkněte sem </p>
           <ul>
             <li>
+              <a href="https://mapy.com/s/hotalufofo" target="_blank">
+                <img className="logo" src={mapLogo} alt="" />
+                Výlety a zajímavá místa
+              </a>
+            </li>
+
+            <li>
               <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
+                <img className="logo" src={mapLogo} alt="" />
+                Výlety a zajímavá místa
               </a>
             </li>
             <li>
               <a href="https://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+                Gastro typy
               </a>
             </li>
           </ul>
@@ -59,11 +63,11 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Kontakty</h2>
+          <p>Navštivte i mé ostatní stránky</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
+              <a href="https://github.com/Vojtech-M" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -74,6 +78,23 @@ function App() {
                 GitHub
               </a>
             </li>
+            <li>
+              <a href="https://vojtech-m.github.io" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="https://vojtech-m.github.io"></use>
+                </svg>
+                Osobní stránka
+              </a>
+            </li>
+
+ 
+ 
+ 
+          {/*
             <li>
               <a href="https://chat.vite.dev/" target="_blank">
                 <svg
@@ -98,22 +119,15 @@ function App() {
                 X.com
               </a>
             </li>
-            <li>
-              <a href="https://vojtech-m.github.io" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="https://vojtech-m.github.io"></use>
-                </svg>
-                Zpět na stránku
-              </a>
-            </li>
+            */}
+           
+
+
           </ul>
         </div>
-      </section>
 
+
+      </section>
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
@@ -121,3 +135,8 @@ function App() {
 }
 
 export default App
+    {/* Kratky komentar k nadpisu */}
+          {/*
+            Tento text zustava schovany, aby stranka pusobila jednoduseji.
+            Puvodni ukazkovy o   dstavec je tu jen jako poznamka pro dalsi upravy.
+          */}
